@@ -4,6 +4,7 @@ require("mason").setup({
             package_installed = "✓",
             package_pending = "➜",
             package_uninstalled = "✗"
-        }
+        },
+      border = "single"
     }
 })
