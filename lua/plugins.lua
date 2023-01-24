@@ -62,5 +62,4 @@ function(use)
     use 'dstein64/vim-startuptime'
     use 'lervag/vimtex'
     use 'andersevenrud/nordic.nvim'
-
 end)
