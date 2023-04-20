@@ -17,6 +17,10 @@ options = {
     filters = {
       dotfiles = true,
     },
+    git = {
+      ignore = false,
+      enable = true
+    }
 }
 
 vim.api.nvim_create_autocmd("BufEnter", {
