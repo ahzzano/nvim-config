@@ -12,3 +12,7 @@ require('lspconfig')['clangd'].setup {
 require('lspconfig')['jedi_language_server'].setup {
   capabilities = capabilities
 }
+
+require('lspconfig')['pyright'].setup {
+    capabilities=capabilities
+}
