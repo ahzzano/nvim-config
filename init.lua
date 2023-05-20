@@ -14,6 +14,8 @@ vim.opt.background = 'dark'
 
 vim.g.airline_theme = 'minimalist'
 --vim.cmd.colorscheme "catppuccin-frappe" 
+vim.cmd('colorscheme kanagawa')
+
 --
 vim.diagnostic.config({
   virtual_text = false

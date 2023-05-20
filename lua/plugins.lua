@@ -1,6 +1,7 @@
 return require('packer').startup(
 function(use)
     use {'wbthomason/packer.nvim'}
+    use "rebelot/kanagawa.nvim"
     use {
       'nvim-tree/nvim-tree.lua',
       requires = {
