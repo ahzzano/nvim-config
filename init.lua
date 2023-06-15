@@ -12,6 +12,7 @@ vim.opt.termguicolors = true
 vim.opt.modifiable = true
 vim.opt.background = 'dark'
 
+vim.opt.foldlevelstart = 99
 vim.g.airline_theme = 'minimalist'
 --vim.cmd.colorscheme "catppuccin-frappe" 
 vim.cmd('colorscheme kanagawa')
