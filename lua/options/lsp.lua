@@ -18,5 +18,7 @@ require('lspconfig')['pyright'].setup {
 }
 
 require('lspconfig')['tsserver'].setup {
-
+    capabilities=capabilities
 }
+
+require('lspconfig')['html-lsp'].setup {capabilities = capabilities}
